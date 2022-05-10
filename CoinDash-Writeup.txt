@@ -1,0 +1,12 @@
+https://www.theregister.com/2017/07/18/coindash_hack/
+
+Summary of the Attack: 
+- At the time of the ICO, somehow the webpage which instructed users where to send crypto to was compromised. The attack involved the original Wallet address which the 
+  funds were to be sent to being replaced with the Wallet address of the attacker....
+  
+Likely Causes of Vulnerability: 
+- It's really anyone's guess... My hunch would be...
+    - Poor SSH or Admin Panel credential strength 
+    - Malicious file upload which led to an attacker being able to overwrite the original page with their slightly modified one
+    - Stored XSS wherein there could have been something like a comment field that a script was injected into... then the script replaced the address based 
+      on where it resided in the page, or just did a brute regex to find it and replace it with a .innerHTML type of method.
