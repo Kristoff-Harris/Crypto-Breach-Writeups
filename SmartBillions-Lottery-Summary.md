@@ -1,6 +1,7 @@
 SmartBillions Lottery Contract Hack
 ===============================================================================
 
+
 What was SmartBillions Lottery?
 -------------------------------------------------------------------------------
 During a hackathon, there was a team that created a lottery style Dapp which 
@@ -11,6 +12,7 @@ paid out.
 
 It is widely believed that this project was created to be intentionally vuln
 due a core game mechanic being deeply flawed.
+
 
 
 How was SmartBillions Lottery Exploited?
